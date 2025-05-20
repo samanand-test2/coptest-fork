@@ -1,0 +1,12 @@
+name: Hello World Workflow
+
+on:
+  pull_request_target:
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Print HELLOWORLD
+        run: echo "HELLOWORLD"
